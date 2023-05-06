@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+nav .active {
+  color: salmon !important;
+  background-color: transparent !important;
+}
+nav {
+  z-index: 999;
+}
+.carousel-item > img {
+  height: 100vh;
+}
+.colorBlue {
+  color: #112c65e6;
+}
+.mainDiv {
+  background-image: url("images/4.jpg");
+}
+.pink {
+  color: palevioletred !important;
+}
+.icon {
+  height: max-content;
+  font-size: 3rem;
+  background-color: palevioletred;
+  color: white;
+  border-radius: 10px;
+}
+.portflio {
+  position: relative;
+  padding: 0;
+}
+.childPortflio {
+  color: white;
+  position: absolute;
+  bottom: 15%;
+  left: 30px;
+  display: none;
+}
+.portflio:hover .childPortflio {
+  display: block;
+}
+.portflio:hover.portflio::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #030c3eba;
+}
+hr {
+  height: 3px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+.bgBlue {
+  background-color: #112c65e6;
+}
+.bgLightBlue {
+  background-color: rgb(33, 33, 97);
+}
+.icons {
+  background-color: palevioletred;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.icons > a {
+    text-decoration: none;
+  margin: 2px;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: xx-large;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.teamContact:hover .icons {
+  display: block;
+}
+.icons > span:hover {
+  background-color: rgb(241, 192, 236);
+}
+.bgpink {
+  background-color: palevioletred;
+}
+.footer-icon > span:hover {
+  color: pink;
+  transform: scale(1.3);
+}
+.para > p {
+  line-height: 1;
+}
